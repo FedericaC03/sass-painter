@@ -265,7 +265,7 @@
   list-style: none;
   display: inline;
   font-size: 18px;
-  line-height: 48px;
+  line-height: 50px;
   font-weight: 500;
   margin-top: 0;
   padding: 14px 20px 21px 20px;
@@ -285,7 +285,7 @@
 
 .section-overview {
   width: 100%;
-  height: 783px;
+  height: 841px;
   background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -368,5 +368,35 @@
 .section-overview .container .bottom:hover .fa-play {
   color: grey;
   border: 2px solid grey;
+}
+
+.owl {
+  background-color: white;
+}
+
+.owl .container {
+  width: 51%;
+  margin: auto;
+  text-align: center;
+}
+
+.owl .container h2 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 300;
+  margin-top: 0;
+  padding-top: 100px;
+}
+
+.owl .container p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.owl .container img {
+  width: 970px;
+  margin: 80px 0;
 }
 

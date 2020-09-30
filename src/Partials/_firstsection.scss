@@ -7,7 +7,7 @@
     text-align: center;
     li {
     @include list-style;
-    @include tipography (18px, 48px, 500, 0);
+    @include tipography (18px, 50px, 500, 0);
     padding:14px 20px 21px 20px;
     background-color: #E6E6E6;
     &:hover {
