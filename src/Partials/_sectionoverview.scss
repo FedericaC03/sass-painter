@@ -1,0 +1,61 @@
+  .section-overview {
+    width: 100%;
+    height: 783px;
+    background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  .container {
+    @include container;
+    .top {
+      height: 250px;
+      color: white;
+      text-align: center;
+      h2 {
+        @include tipography (36px, 40px, 400, 100px)
+      }
+      h3 {
+        @include tipography (18px, 27px, 400, 10px)
+      }
+      .pdf {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 30px;
+        i{
+          font-size: 25px;
+          border: 2px solid #585858;
+          padding: 7px;
+          border-radius: 100%;
+          color: #585858;
+        }
+        span {
+          @include tipography (18px, 27px, 400, 40px);
+          text-decoration: underline;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .bottom {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      img {
+        width: 95%;
+      }
+      i {
+        @include centerdiv;
+        font-size: 50px;
+        color: white;
+        border-radius: 100%;
+        border: 2px solid white;
+        padding: 25px;
+        padding-left: 35px;
+      }
+      &:hover .fa-play{
+        color:grey;
+        border:2px solid grey;
+      }
+    }
+  }
+}

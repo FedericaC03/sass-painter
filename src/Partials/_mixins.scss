@@ -16,3 +16,15 @@
   font-weight: $weight ;
   margin-top: $margintop;
 }
+
+@mixin container {
+  width: 51%;
+  margin: auto;
+}
+
+@mixin centerdiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
