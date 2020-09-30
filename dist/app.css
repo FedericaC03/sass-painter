@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  background-color: black;
+}
+
+.wrapper .header-top {
+  background-color: black;
+  width: 60%;
+  height: 95px;
+  margin: auto;
+}
+
+.wrapper .header-top .first-nav {
+  height: 50%;
+  line-height: 45px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper .header-top .first-nav li {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.wrapper .header-top .first-nav a {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  color: grey;
+  font-size: 12px;
+}
+
+.wrapper .header-top .first-nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.wrapper .header-top .first-nav a i {
+  color: #28ACFF;
+  margin: 0 5px 0;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.second-nav {
+  height: 50%;
+}
+
+.second-nav .logo {
+  width: 90px;
+}
+
+.second-nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 78%;
+  margin-top: 10px;
+}
+
+.second-nav ul li:not(:first-child) {
+  margin-top: 10px;
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+}
+
+.second-nav ul li:not(:first-child) a {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  color: white;
+  font-size: 15px;
+}
+
+.second-nav ul li:not(:first-child) a i {
+  color: grey;
+}
+
+.header-bottom {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
+  height: 460px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-bottom .jumboRow {
+  display: flex;
+  justify-content: flex-end;
+  width: 61%;
+  margin: auto;
+  height: 460px;
+}
+
+.header-bottom .jumboRow .jumboElements {
+  width: 75%;
+  display: flex;
+}
+
+.header-bottom .jumboRow .jumboElements .painter {
+  width: 60%;
+  padding-top: 50px;
+  color: white;
+}
+
+.header-bottom .jumboRow .jumboElements .painter h2 {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.header-bottom .jumboRow .jumboElements .painter h3 {
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-bottom .jumboRow .jumboElements .painter li {
+  list-style: none;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.header-bottom .jumboRow .jumboElements .painter li i {
+  color: grey;
+}
+
+.header-bottom .jumboRow .jumboElements .painter li button {
+  display: flex;
+  background-color: #5C5D5B;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.header-bottom .jumboRow .jumboElements .painter li button .download {
+  padding: 10px;
+}
+
+.header-bottom .jumboRow .jumboElements .painter li button .fa-download {
+  border-left: 1px solid white;
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+}
+
+.header-bottom .jumboRow .jumboElements .painter li button:hover {
+  background-color: #5B5C5A;
+}
+
+.header-bottom .jumboRow .jumboElements .offert {
+  margin-top: 20px;
+  width: 40%;
+  background-color: black;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .top {
+  height: 230px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .top .left {
+  margin-top: 30px;
+  color: white;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .top .left .price {
+  font-size: 26px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .top .left h5 {
+  margin-bottom: 20px;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .top .left .download {
+  color: grey;
+  font-size: 14px;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .top .left button {
+  background-color: #337ab7;
+  margin-top: 20px;
+  padding: 10px 40px;
+  color: white;
+  border: none;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .top .left button:hover {
+  background-color: #28ACFF;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .top .right img {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .bottom {
+  height: 100px;
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .bottom h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .bottom p {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .bottom a {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-top: 0;
+  color: #009cff;
+  text-decoration: none;
+}
+
+.header-bottom .jumboRow .jumboElements .offert .bottom a:hover {
+  text-decoration: underline;
+}
+

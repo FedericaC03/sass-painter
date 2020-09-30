@@ -1,0 +1,18 @@
+@mixin list-style {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+}
+
+@mixin clearFix {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+@mixin tipography ($size, $lineHeight, $weight, $margintop) {
+  font-size:$size;
+  line-height: $lineHeight;
+  font-weight: $weight ;
+  margin-top: $margintop;
+}

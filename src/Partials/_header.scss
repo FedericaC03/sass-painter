@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  background-color: black;
+
+  .header-top {
+    background-color: black;
+    width: 60%;
+    height: 95px;
+    margin: auto;
+
+    .first-nav {
+      height: 50%;
+      line-height: 45px;
+      display: flex;
+      justify-content: flex-end;
+      li {
+        @include list-style;
+        margin-left: 10px;
+        width: 100%;
+      }
+      a {
+        @include list-style;
+        color: $text_color;
+        font-size: 12px;
+        &:hover {
+          color:white;
+          text-decoration: underline;
+        }
+        i {
+          color: $color_blue;
+          margin: 0 5px 0;
+          font-size: 15px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+.second-nav {
+  height: 50%;
+  .logo {
+    width: 90px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    margin-top: 10px;
+
+    li:not(:first-child) {
+      margin-top: 10px;
+      @include list-style;
+      a {
+        @include list-style;
+        color: white;
+        font-size: 15px;
+        i {
+          color:$text_color;
+        }
+      }
+    }
+  }
+}
+
+// .dropdown {
+//   border-radius: 5px;
+//   white-space: nowrap;
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+//   display: none;
+//   padding: 10px 15px;
+//   position: absolute;
+//   background-color: red;
+//   z-index: 1;
+//   li {
+//     position: relative;
+//     @include list-style;
+//     a {
+//       color: black;
+//     }
+//   }
+// }
+
+.header-bottom {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
+  height: 460px;
+  background-repeat: no-repeat;
+  background-position: center;
+  .jumboRow {
+    display: flex;
+    justify-content: flex-end;
+    width: 61%;
+    margin: auto;
+    height: 460px;
+    .jumboElements {
+      width: 75%;
+      display: flex;
+      .painter{
+        width: 60%;
+        padding-top: 50px;
+        color: white;
+        h2 {
+          @include tipography (30px, 35px, 400, 0 );
+        }
+        h3 {
+          @include tipography (22px, 25px, 400, 20px);
+          margin-bottom: 20px;
+        }
+        li {
+          list-style: none;
+          @include tipography (17px, 25px, 400, 10px);
+          i {
+            color: grey;
+          }
+          button{
+            display: flex;
+            background-color: #5C5D5B;
+            color: white;
+            border:none;
+            padding: 5px;
+            @include tipography (14px, 14px, 500, 25px);
+            .download {
+              padding: 10px;
+            }
+            .fa-download {
+              border-left: 1px solid white;
+              font-size: 25px;
+              padding: 10px;
+              color: white;
+            }
+            &:hover {
+              background-color:#5B5C5A;
+            }
+          }
+        }
+      }
+      .offert{
+        margin-top: 20px;
+        width: 40%;
+        background-color: black;
+        .top{
+          height: 230px;
+          display: flex;
+          justify-content: space-around;
+          .left{
+            margin-top: 30px;
+            color: white;
+            .price {
+              @include tipography (26px, 20px, 400, 20px);
+            }
+            h5 {
+              margin-bottom: 20px;
+            }
+            .download {
+              color:grey;
+              font-size: 14px;
+            }
+            button {
+              background-color: #337ab7;
+              margin-top: 20px;
+              padding: 10px 40px;
+              color: white;
+              border: none;
+              &:hover {
+                background-color: $color_blue;
+              }
+            }
+          }
+          .right{
+            img {
+              margin-top: 20px;
+              margin-left: 60px;
+            }
+          }
+        }
+        .bottom{
+          height: 100px;
+          background-color: white;
+          margin:20px;
+          padding: 10px;
+          h3 {
+            @include tipography (18px, 27px, 500, 0);
+          }
+          p {
+            @include tipography (14px, 18px, 400, 0);
+          }
+          a {
+            @include tipography (14px, 18px, 400, 0);
+            color: #009cff;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+   }
+  }
+}
