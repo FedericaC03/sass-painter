@@ -88,8 +88,9 @@
 // }
 
 .header-bottom {
-  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
-  height: 460px;
+  background-image: url("../src/img/hero-painteressentials-7.jpg");
+  max-height: 460px;
+  max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   .jumboRow {

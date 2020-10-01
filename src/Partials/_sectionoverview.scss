@@ -1,6 +1,6 @@
   .section-overview {
     width: 100%;
-    height: 810px;
+    height: 797px;
     background-image: url("../src/img/intro.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,8 +40,13 @@
       display: flex;
       justify-content: center;
       position: relative;
-      img {
-        max-width: 100%;
+      .woman {
+        max-width: 98%;
+        border-radius: 10px;
+      }
+      .cornice {
+        position: absolute;
+        max-width: 99%;
       }
       i {
         @include centerdiv;

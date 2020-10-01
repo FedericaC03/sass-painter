@@ -16,6 +16,10 @@
   min-height: 900px;
 }
 
+.d-none-mobile {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -93,8 +97,9 @@
 }
 
 .header-bottom {
-  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
-  height: 460px;
+  background-image: url("../src/img/hero-painteressentials-7.jpg");
+  max-height: 460px;
+  max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -263,7 +268,7 @@
 
 .section-overview {
   width: 100%;
-  height: 810px;
+  height: 797px;
   background-image: url("../src/img/intro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -316,8 +321,13 @@
   justify-content: center;
   position: relative;
 }
-.section-overview .container .bottom img {
-  max-width: 100%;
+.section-overview .container .bottom .woman {
+  max-width: 98%;
+  border-radius: 10px;
+}
+.section-overview .container .bottom .cornice {
+  position: absolute;
+  max-width: 99%;
 }
 .section-overview .container .bottom i {
   position: absolute;
@@ -612,4 +622,10 @@ footer .footer-top .list .social .fa-rss-square {
 .footer-bottom .row .copyright ul li a:hover {
   text-decoration: underline;
   color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .d-none {
+    display: none;
+  }
 }
