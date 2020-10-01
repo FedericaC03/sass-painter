@@ -517,3 +517,59 @@
 .brush-pack .container .box a:hover {
   text-decoration: underline;
 }
+
+footer {
+  background-color: white;
+}
+footer .footer-top {
+  width: 70%;
+  margin: auto;
+  height: 300px;
+}
+footer .footer-top .list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-top: 60px;
+}
+footer .footer-top .list li {
+  list-style: none;
+  margin-top: 5px;
+  width: 250px;
+}
+footer .footer-top .list a {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 0px;
+  text-decoration: none;
+  color: #333333;
+}
+footer .footer-top .list a:hover {
+  text-decoration: underline;
+}
+footer .footer-top .list .social {
+  display: flex;
+  justify-content: space-around;
+}
+footer .footer-top .list .social i {
+  font-size: 35px;
+}
+footer .footer-top .list .social .fa-instagram-square {
+  color: #E4405F;
+}
+footer .footer-top .list .social .fa-facebook-square {
+  color: #3B5998;
+}
+footer .footer-top .list .social .fa-twitter-square {
+  color: #1DA1F2;
+}
+footer .footer-top .list .social .fa-youtube-square {
+  color: #CD201F;
+}
+footer .footer-top .list .social .fa-pinterest-square {
+  color: #BD081C;
+}
+footer .footer-top .list .social .fa-rss-square {
+  color: #FF8D00;
+}
