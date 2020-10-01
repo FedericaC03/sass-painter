@@ -1,0 +1,27 @@
+.tools{
+  background-color: white;
+  height: 550px;
+  .container {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  h2 {
+    @include tipography (36px, 40px, 400, 0);
+    padding: 70px;
+  }
+  .effects {
+    display: flex;
+    justify-content: space-evenly;
+    .box {
+      img {
+        max-width: 280px;
+        &:hover {
+        filter: blur(1px);
+        transform: scale(1.1);
+        transition: 2s;
+       }
+      }
+    }
+  }
+ }
+}

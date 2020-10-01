@@ -444,3 +444,76 @@
   font-weight: 400;
   margin-top: 20px;
 }
+
+.tools {
+  background-color: white;
+  height: 550px;
+}
+.tools .container {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+.tools .container h2 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-top: 0;
+  padding: 70px;
+}
+.tools .container .effects {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tools .container .effects .box img {
+  max-width: 280px;
+}
+.tools .container .effects .box img:hover {
+  filter: blur(1px);
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+.brush-pack {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg);
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.brush-pack .container {
+  width: 56%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.brush-pack .container .box {
+  background-color: white;
+  margin: 30px;
+  text-align: center;
+  width: 630px;
+  height: 350px;
+  padding: 100px 20px 0 20px;
+}
+.brush-pack .container .box h2 {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 0;
+}
+.brush-pack .container .box p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.brush-pack .container .box a {
+  color: #009cff;
+  text-decoration: none;
+}
+.brush-pack .container .box a:hover {
+  text-decoration: underline;
+}
