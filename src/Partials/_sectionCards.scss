@@ -1,0 +1,65 @@
+.cardSection{
+  background-color: #222222;
+  color: white;
+  .flexible-photo{
+    @include container;
+    text-align: center;
+    h2 {
+      @include tipography(36px, 40px, 400, 0px);
+      padding-top: 70px;
+    }
+    p {
+      @include tipography(18px, 27px, 400, 20px);
+    }
+    img {
+      margin: 80px 0;
+      max-width: 85%;
+    }
+  }
+  .blank-canvas {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    .left {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 53px;
+      h2 {
+        @include tipography(24px, 25px, 400, 0px);
+      }
+      p{
+        @include tipography(18px, 27px, 400, 20px);
+      }
+    }
+    .right {
+      img {
+      max-width:700px;
+      margin: 50px 0 50px 60px;
+    }
+   }
+  }
+  .brushes{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    img {
+      max-width:700px;
+      margin: 50px 0 50px 60px;
+    }
+    .right {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 53px;
+      h2 {
+        @include tipography(24px, 25px, 400, 0px);
+      }
+      p{
+        @include tipography(18px, 27px, 400, 20px);
+      }
+    }
+  }
+}

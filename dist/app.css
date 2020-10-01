@@ -1,3 +1,21 @@
+.background {
+  background-attachment: fixed;
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 900px;
+}
+
+.background-second {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 900px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,21 +26,18 @@
 .wrapper {
   background-color: black;
 }
-
 .wrapper .header-top {
   background-color: black;
   width: 60%;
   height: 95px;
   margin: auto;
 }
-
 .wrapper .header-top .first-nav {
   height: 50%;
   line-height: 45px;
   display: flex;
   justify-content: flex-end;
 }
-
 .wrapper .header-top .first-nav li {
   text-decoration: none;
   list-style: none;
@@ -30,7 +45,6 @@
   margin-left: 10px;
   width: 100%;
 }
-
 .wrapper .header-top .first-nav a {
   text-decoration: none;
   list-style: none;
@@ -38,12 +52,10 @@
   color: grey;
   font-size: 12px;
 }
-
 .wrapper .header-top .first-nav a:hover {
   color: white;
   text-decoration: underline;
 }
-
 .wrapper .header-top .first-nav a i {
   color: #28ACFF;
   margin: 0 5px 0;
@@ -54,25 +66,21 @@
 .second-nav {
   height: 50%;
 }
-
 .second-nav .logo {
   width: 90px;
 }
-
 .second-nav ul {
   display: flex;
   justify-content: space-between;
   width: 78%;
   margin-top: 10px;
 }
-
 .second-nav ul li:not(:first-child) {
   margin-top: 10px;
   text-decoration: none;
   list-style: none;
   display: inline;
 }
-
 .second-nav ul li:not(:first-child) a {
   text-decoration: none;
   list-style: none;
@@ -80,7 +88,6 @@
   color: white;
   font-size: 15px;
 }
-
 .second-nav ul li:not(:first-child) a i {
   color: grey;
 }
@@ -91,7 +98,6 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .header-bottom .jumboRow {
   display: flex;
   justify-content: flex-end;
@@ -99,25 +105,21 @@
   margin: auto;
   height: 460px;
 }
-
 .header-bottom .jumboRow .jumboElements {
   width: 75%;
   display: flex;
 }
-
 .header-bottom .jumboRow .jumboElements .painter {
   width: 60%;
   padding-top: 50px;
   color: white;
 }
-
 .header-bottom .jumboRow .jumboElements .painter h2 {
   font-size: 30px;
   line-height: 35px;
   font-weight: 400;
   margin-top: 0;
 }
-
 .header-bottom .jumboRow .jumboElements .painter h3 {
   font-size: 22px;
   line-height: 25px;
@@ -125,7 +127,6 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 .header-bottom .jumboRow .jumboElements .painter li {
   list-style: none;
   font-size: 17px;
@@ -133,11 +134,9 @@
   font-weight: 400;
   margin-top: 10px;
 }
-
 .header-bottom .jumboRow .jumboElements .painter li i {
   color: grey;
 }
-
 .header-bottom .jumboRow .jumboElements .painter li button {
   display: flex;
   background-color: #5C5D5B;
@@ -149,55 +148,45 @@
   font-weight: 500;
   margin-top: 25px;
 }
-
 .header-bottom .jumboRow .jumboElements .painter li button .download {
   padding: 10px;
 }
-
 .header-bottom .jumboRow .jumboElements .painter li button .fa-download {
   border-left: 1px solid white;
   font-size: 25px;
   padding: 10px;
   color: white;
 }
-
 .header-bottom .jumboRow .jumboElements .painter li button:hover {
   background-color: #5B5C5A;
 }
-
 .header-bottom .jumboRow .jumboElements .offert {
   margin-top: 20px;
   width: 40%;
   background-color: black;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .top {
   height: 230px;
   display: flex;
   justify-content: space-around;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .top .left {
   margin-top: 30px;
   color: white;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .top .left .price {
   font-size: 26px;
   line-height: 20px;
   font-weight: 400;
   margin-top: 20px;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .top .left h5 {
   margin-bottom: 20px;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .top .left .download {
   color: grey;
   font-size: 14px;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .top .left button {
   background-color: #337ab7;
   margin-top: 20px;
@@ -205,37 +194,31 @@
   color: white;
   border: none;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .top .left button:hover {
   background-color: #28ACFF;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .top .right img {
   margin-top: 20px;
   margin-left: 60px;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .bottom {
   height: 100px;
   background-color: #E6E6E6;
   margin: 20px;
   padding: 10px;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .bottom h3 {
   font-size: 18px;
   line-height: 27px;
   font-weight: 500;
   margin-top: 0;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .bottom p {
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
   margin-top: 0;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .bottom a {
   font-size: 14px;
   line-height: 18px;
@@ -244,7 +227,6 @@
   color: #009cff;
   text-decoration: none;
 }
-
 .header-bottom .jumboRow .jumboElements .offert .bottom a:hover {
   text-decoration: underline;
 }
@@ -254,28 +236,24 @@
   height: 55px;
   margin: auto;
 }
-
 .second-navi ul {
   width: 80%;
   text-align: center;
 }
-
 .second-navi ul li {
   text-decoration: none;
   list-style: none;
   display: inline;
   font-size: 18px;
-  line-height: 50px;
+  line-height: 40px;
   font-weight: 500;
   margin-top: 0;
-  padding: 14px 20px 21px 20px;
+  padding: 10px 20px 21px 20px;
   background-color: #E6E6E6;
 }
-
 .second-navi ul li:hover {
-  border-bottom: 3px solid black;
+  border-bottom: 5px solid black;
 }
-
 .second-navi ul li a {
   color: #555;
   text-decoration: none;
@@ -290,38 +268,32 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .section-overview .container {
   width: 51%;
   margin: auto;
 }
-
 .section-overview .container .top {
   height: 250px;
   color: white;
   text-align: center;
 }
-
 .section-overview .container .top h2 {
   font-size: 36px;
   line-height: 40px;
   font-weight: 400;
   margin-top: 100px;
 }
-
 .section-overview .container .top h3 {
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
   margin-top: 10px;
 }
-
 .section-overview .container .top .pdf {
   height: 50px;
   line-height: 50px;
   margin-top: 30px;
 }
-
 .section-overview .container .top .pdf i {
   font-size: 25px;
   border: 2px solid #585858;
@@ -329,7 +301,6 @@
   border-radius: 100%;
   color: #585858;
 }
-
 .section-overview .container .top .pdf span {
   font-size: 18px;
   line-height: 27px;
@@ -337,21 +308,17 @@
   margin-top: 40px;
   text-decoration: underline;
 }
-
 .section-overview .container .top .pdf span:hover {
   text-decoration: none;
 }
-
 .section-overview .container .bottom {
   display: flex;
   justify-content: center;
   position: relative;
 }
-
 .section-overview .container .bottom img {
   width: 95%;
 }
-
 .section-overview .container .bottom i {
   position: absolute;
   top: 50%;
@@ -364,7 +331,6 @@
   padding: 25px;
   padding-left: 35px;
 }
-
 .section-overview .container .bottom:hover .fa-play {
   color: grey;
   border: 2px solid grey;
@@ -373,13 +339,11 @@
 .owl {
   background-color: white;
 }
-
 .owl .container {
   width: 51%;
   margin: auto;
   text-align: center;
 }
-
 .owl .container h2 {
   font-size: 36px;
   line-height: 40px;
@@ -387,16 +351,96 @@
   margin-top: 0;
   padding-top: 100px;
 }
-
 .owl .container p {
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
   margin-top: 10px;
 }
-
 .owl .container img {
   width: 970px;
   margin: 80px 0;
 }
 
+.cardSection {
+  background-color: #222222;
+  color: white;
+}
+.cardSection .flexible-photo {
+  width: 51%;
+  margin: auto;
+  text-align: center;
+}
+.cardSection .flexible-photo h2 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-top: 0px;
+  padding-top: 70px;
+}
+.cardSection .flexible-photo p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.cardSection .flexible-photo img {
+  margin: 80px 0;
+  max-width: 85%;
+}
+.cardSection .blank-canvas {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+.cardSection .blank-canvas .left {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 53px;
+}
+.cardSection .blank-canvas .left h2 {
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.cardSection .blank-canvas .left p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.cardSection .blank-canvas .right img {
+  max-width: 700px;
+  margin: 50px 0 50px 60px;
+}
+.cardSection .brushes {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+.cardSection .brushes img {
+  max-width: 700px;
+  margin: 50px 0 50px 60px;
+}
+.cardSection .brushes .right {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 53px;
+}
+.cardSection .brushes .right h2 {
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.cardSection .brushes .right p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 20px;
+}
