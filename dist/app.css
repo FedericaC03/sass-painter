@@ -1,6 +1,6 @@
 .background {
   background-attachment: fixed;
-  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg);
+  background-image: url("../src/img/image-bg-02.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -8,7 +8,7 @@
 }
 
 .background-second {
-  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg);
+  background-image: url("../src/img/image-bg-01.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -245,10 +245,10 @@
   list-style: none;
   display: inline;
   font-size: 18px;
-  line-height: 40px;
+  line-height: 45px;
   font-weight: 500;
   margin-top: 0;
-  padding: 10px 20px 21px 20px;
+  padding: 12px 20px 21px 20px;
   background-color: #E6E6E6;
 }
 .second-navi ul li:hover {
@@ -263,8 +263,8 @@
 
 .section-overview {
   width: 100%;
-  height: 841px;
-  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
+  height: 810px;
+  background-image: url("../src/img/intro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -317,7 +317,7 @@
   position: relative;
 }
 .section-overview .container .bottom img {
-  width: 95%;
+  max-width: 100%;
 }
 .section-overview .container .bottom i {
   position: absolute;
@@ -475,7 +475,7 @@
 }
 
 .brush-pack {
-  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg);
+  background-image: url("../src/img/brushpacks-bg.jpg");
   width: 100%;
   height: 500px;
   position: relative;
@@ -572,4 +572,44 @@ footer .footer-top .list .social .fa-pinterest-square {
 }
 footer .footer-top .list .social .fa-rss-square {
   color: #FF8D00;
+}
+
+.footer-bottom {
+  background-color: #1E1E1E;
+  height: 80px;
+}
+.footer-bottom .row {
+  display: flex;
+  width: 63%;
+  margin: auto;
+  justify-content: space-between;
+}
+.footer-bottom .row .partner img {
+  margin-right: 20px;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+.footer-bottom .row .copyright ul {
+  display: flex;
+}
+.footer-bottom .row .copyright ul li {
+  list-style: none;
+  color: white;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.footer-bottom .row .copyright ul li a {
+  text-decoration: none;
+  color: #999;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-top: 0;
+}
+.footer-bottom .row .copyright ul li a:hover {
+  text-decoration: underline;
+  color: white;
 }

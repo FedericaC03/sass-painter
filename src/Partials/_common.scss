@@ -1,13 +1,13 @@
 .background {
     background-attachment: fixed;
-    background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg);
+    background-image: url("../src/img/image-bg-02.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 900px;
 }
 .background-second{
-  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg);
+  background-image: url("../src/img/image-bg-01.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

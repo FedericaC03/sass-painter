@@ -50,3 +50,41 @@ footer {
     }
   }
 }
+  .footer-bottom {
+    background-color: #1E1E1E;
+    height: 80px;
+    .row {
+      display: flex;
+      width: 63%;
+      margin:auto;
+      justify-content: space-between;
+      .partner {
+        img {
+          margin-right: 20px;
+          vertical-align: middle;
+          margin-top: 5px;
+        }
+      }
+      .copyright {
+
+        ul {
+          display: flex;
+          li {
+            list-style: none;
+            color: white;
+            @include tipography (12px, 20px, 400, 25px);
+            margin-left: 20px;
+            a {
+              text-decoration: none;
+              color: #999;
+              @include tipography (12px, 20px, 400, 0);
+              &:hover {
+                text-decoration: underline;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+}
